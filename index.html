@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HOME - SDC Ltd</title>
+   
+</head>
+<body>
+    
+
+    <header class="header">
+        <div class="logo">SDC Ltd</div>
+    
+        <input type="checkbox" id="toggle">
+        <label for="toggle"> <img class="navimage" src="images/banner1.jpeg" alt="A lady leaning on a desk" style="width: 50px; height: 50px;"></label>
+    
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a>
+                    <ul class="dropdown">
+                        <li><a href="Health_Benefits.html">Health_Benefits</a></li>
+                        <li><a href="Rising_Desk.html">Rising_Desk</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Basket.html">Basket</a></li>
+                    </ul>
+                </li>
+                <li><a href="Rising_Desk.html">Rising Desk</a></li>
+                <li><a href="Health_Benefits.html">Health Benefits</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Basket.html">Basket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section class="banner">
+        <div class="heading">
+            <h1>Standing Desk Company Ltd</h1>
+            <p>Rise Up, Stay Healthy: The Power of Standing Desk!.</p>
+            <div class="own">
+                <input class="searche" type="search" placeholder="Type to search">
+            </div>
+        </div>
+    </section>
+
+    <div id="hello-popup" class="popup">
+        Hello!
+    </div>
+
+    <script>
+    window.onload = function() {
+        
+        const popup = document.getElementById('hello-popup');
+        
+    
+        popup.classList.add('show');
+    
+        
+        setTimeout(function() {
+            popup.classList.remove('show');
+        }, 3000); 
+    };
+</script>
+    
+    <section class="product-section">
+        <h2 class="product-heading"><strong>Special Offers</strong></h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="images/desk1.jpg" alt="SummitStand">
+                <h3>Minimalist Desk</h3>
+                <p>Minimalist Desk: Elevate your workspace with our simple yet stylish minimalist desk.</p>
+                <button type="button">Talk to Us &#8594;</button>
+            </div>
+            <div class="product-item">
+                <img src="images/desk3.png" alt="Luminarise">
+                <h3>Traditional Executive Desk</h3>
+                <p>Traditional Executive Desk: Timeless style meets modern convenience which Offers storage for documents, supplies, and personal items. .</p>
+                <button type="button">Talk to Us &#8594;</button>
+            </div>
+            <div class="product-item">
+                <img src="images/desk5.jpg" alt="SkyDesk">
+                <h3> L-Shaped Executive Desk</h3>
+                <p> L-Shaped Executive Desk: Spacious L-shaped executive desk for a commanding presence and its ideal for multitasking and collaboration.</p>
+                <button type="button">Talk to Us &#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="Social Media Icons">
+            <h2>Standing Desk Company Ltd</h2>
+            <ul class="footer_icons">
+                <li><a href=""><img src="images/instagram.png" alt="instagram" class="image"></a></li>
+                <li><a href="#"><img src="images/facebook.jpg" alt="facebook" class="image" ></a></li>
+                <li><a href="#"><img src="images/whatsapp.png" alt="whatsapp" class="image"></a></li>
+            </ul>
+            
+            <ul class="footer_menu">
+                <li><a href="Health_Benefits.html">Health Benefits</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Basket.html">Basket</a></li>
+            </ul>
+
+            <div class="footer_copyright">
+                <p>&copy; 2024 Standing Desk Company Ltd.</p>
+                <p>Design By Adebayor Dorcas</p>
+            </div>
+        </div>
+    </footer>
+        
+    
+</body>
+</html>
