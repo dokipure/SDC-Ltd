@@ -16,8 +16,8 @@ The company needed a morden and responsive website to promote it ergonomic stand
 
 ## Technologies Used
 - **HTML5** — structure and layout  
-- **CSS3** — design and responsiveness  
-- **JavaScript (Vanilla)** — dynamic interactions
+- **CSS** — design and responsiveness  
+- **JavaScript** — dynamic interactions
 
 ## Tools and Workflow
 - **Visual Studio Code** — for development
